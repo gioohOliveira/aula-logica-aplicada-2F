@@ -20,17 +20,21 @@ public class Main {
         eva.falar();
 
         // Criar mais objetos
+
         pessoa qualquer= new pessoa();
         // Declarar objeto
         pessoa rainha;
+
         // Instanciamento do objeto
         rainha = new pessoa();
+
         // Instanciação forma da pessoa
         rainha.nome = "Tina";
         rainha.sobrenome= "tunner";
+
         // Definição de comportamento
         System.out.println(rainha.falar("alto"));
-
+        rainha.comer();
 
 
     }
