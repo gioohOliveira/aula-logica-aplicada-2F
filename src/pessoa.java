@@ -7,4 +7,8 @@ public class pessoa {
         System.out.println("falei");
     }
 
+    public String falar(String volume){
+        return "falei" + volume;
+    }
+
 }
